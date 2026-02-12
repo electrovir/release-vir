@@ -56,6 +56,7 @@ async function runAction() {
             owner: params.repo.owner,
             repo: params.repo.repo,
             tag_name: params.tagName,
+            name: params.tagName,
             body: releaseBody,
             make_latest: isCurrentLatest ? 'true' : 'false',
         } as const;
