@@ -14,5 +14,5 @@ outputs:
     release_url:
         description: 'The URL of the newly created release on GitHub.'
 runs:
-    using: 'node20'
+    using: 'node24'
     main: 'src/action-entry-point.js'
